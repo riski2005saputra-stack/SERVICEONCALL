@@ -1,0 +1,93 @@
+╔════════════════════════════════════════════════════════════════╗
+║         CARA DEPLOY SERVICE ON CALL KE INTERNET               ║
+╚════════════════════════════════════════════════════════════════╝
+
+📌 CARA TERCEPAT (Tanpa Install Git):
+
+1. UPLOAD KE GITHUB:
+   ✓ Buka: https://github.com/riski2005saputra-stack/SERVICEONCALL
+   ✓ Klik "Add file" → "Upload files"
+   ✓ Drag semua file dari folder project (KECUALI node_modules dan .next)
+   ✓ Tulis commit message: "Initial commit"
+   ✓ Klik "Commit changes"
+
+2. DEPLOY KE VERCEL (GRATIS):
+   ✓ Buka: https://vercel.com
+   ✓ Klik "Sign Up" atau "Login" dengan GitHub
+   ✓ Klik "Add New" → "Project"
+   ✓ Pilih repository: SERVICEONCALL
+   ✓ Klik "Deploy"
+   ✓ Tunggu 2-3 menit
+   ✓ SELESAI! Website Anda ONLINE!
+
+3. LINK WEBSITE ANDA:
+   Setelah deploy, Anda akan dapat link seperti:
+   https://serviceoncall.vercel.app
+   atau
+   https://serviceoncall-xxx.vercel.app
+
+═══════════════════════════════════════════════════════════════
+
+📌 CARA DENGAN GIT (Jika Sudah Install Git):
+
+1. INSTALL GIT (Jika belum):
+   Download: https://git-scm.com/download/win
+   Install → Restart terminal
+
+2. JALANKAN SCRIPT:
+   Double-click file: deploy-to-github.bat
+   
+   Script akan otomatis:
+   ✓ Initialize Git
+   ✓ Add semua file
+   ✓ Commit
+   ✓ Push ke GitHub
+
+3. DEPLOY KE VERCEL:
+   Ikuti langkah nomor 2 di atas
+
+═══════════════════════════════════════════════════════════════
+
+📌 UPDATE WEBSITE DI MASA DEPAN:
+
+Setelah website online, untuk update:
+
+1. Edit file yang ingin diubah
+2. Buka GitHub repository
+3. Upload file yang sudah diubah
+4. Vercel akan otomatis deploy perubahan!
+
+ATAU jika pakai Git:
+   git add .
+   git commit -m "Update website"
+   git push
+
+═══════════════════════════════════════════════════════════════
+
+❓ TROUBLESHOOTING:
+
+Problem: "Git not found"
+→ Install Git dari https://git-scm.com/download/win
+
+Problem: "Permission denied"
+→ Login ke GitHub di browser terlebih dahulu
+
+Problem: "Build failed di Vercel"
+→ Cek logs di Vercel dashboard
+→ Pastikan semua file sudah ter-upload
+
+═══════════════════════════════════════════════════════════════
+
+✅ CHECKLIST SEBELUM DEPLOY:
+
+□ Semua file sudah tersimpan
+□ npm install sudah dijalankan
+□ Website berjalan di localhost:3000
+□ Nomor WhatsApp sudah benar (0859-2332-0768)
+□ Logo dan gambar slider sudah ada
+
+═══════════════════════════════════════════════════════════════
+
+🎉 SELAMAT! Website Service On Call Anda akan segera ONLINE!
+
+Butuh bantuan? Baca file: DEPLOY_INSTRUCTIONS.md
